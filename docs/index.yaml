@@ -8,6 +8,6 @@ entries:
     digest: 3c4a0543ea3fe525895bd88af3436033c91d16da373569e8313a5abc3f617607
     name: superset_snowf
     urls:
-    - https://miguelelgallo.github.io/hosthelm/docs/superset_snowf-0.1.0.tgz
+    - https://miguelelgallo.github.io/hosthelm/superset_snowf-0.1.0.tgz
     version: 0.1.0
 generated: "2020-07-07T11:13:42.2208941+03:00"
