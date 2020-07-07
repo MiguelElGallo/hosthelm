@@ -3,11 +3,11 @@ entries:
   superset-snowf:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-07T12:21:02.1678878+03:00"
+    created: "2020-07-07T12:26:42.5608077+03:00"
     description: A Helm chart for Kubernetes
-    digest: a58a6de7849f52636eecc73976cd342f091eab048f236afafb384928aa459c88
+    digest: 5d36d8fa81c91a12e0375a9ab01005c6e28bf81baf15f3a63492e2c336a48216
     name: superset-snowf
     urls:
     - https://miguelelgallo.github.io/hosthelm/superset-snowf-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-07T12:21:02.1668511+03:00"
+generated: "2020-07-07T12:26:42.5598074+03:00"
