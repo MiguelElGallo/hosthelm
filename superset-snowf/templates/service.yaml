@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "superset_snowf.fullname" . }}
+  name: {{ include "superset-snowf.fullname" . }}
   labels:
-{{ include "superset_snowf.labels" . | indent 4 }}
+{{ include "superset-snowf.labels" . | indent 4 }}
 spec:
   type: {{ .Values.service.type }}
   ports:
@@ -12,5 +12,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app.kubernetes.io/name: {{ include "superset_snowf.name" . }}
+    app.kubernetes.io/name: {{ include "superset-snowf.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
