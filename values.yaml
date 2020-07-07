@@ -5,7 +5,7 @@ replicaCount: 1
 
 ## Set default image, imageTag, and imagePullPolicy.
 image:
-  repository: "MiguelElGallo/Superset_Snowflake_D"
+  repository: "mpz1/superset_snowflake"
   tag: "latest"
   pullPolicy: "IfNotPresent"
   pullSecrets: []
